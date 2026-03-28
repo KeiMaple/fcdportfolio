@@ -1,0 +1,91 @@
+.container{
+	background: lightpink;
+}
+
+h1, p {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+/* id selector */
+/* # - is used to select an element using its id*/
+
+#img{
+	height: 200px;
+	width: 200px;
+
+	/*make object fitted without cramping*/
+	object-fit: cover;
+	object-position: top;
+
+	/*add*/
+	margin: 20px auto;
+
+	/*border-radius - to add curvey edges to create a circular shape*/
+	border-radius: 100%;
+	display: block;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#landing{
+	/*landing section to be 80% height*/
+	min-height: 90.5vh;
+
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	justify-content: center;
+
+	align-items: center;
+
+	/*to center both horizontally and vertically*/
+	justify-content: center;
+	align-items: center;
+}
+
+body{
+	background-color: #FFE1EC !important;
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='191' height='191' viewBox='0 0 100 100'%3E%3Cg stroke='%23CCCCCC' stroke-width='0' %3E%3Crect fill='%23F5F5F5' x='-60' y='-60' width='60' height='240'/%3E%3C/g%3E%3C/svg%3E");
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+footer{
+	background-color: black;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	display: flex;
+	/*padding - adding space between border and content*/
+	justify-content: center;
+	gap: 1px;
+	padding: 10px;
+	text-align: center;
+}
+
+i{
+	/*make the icon bigger*/
+	font-size: 25px;
+
+	/*make the icon white contrast to bg*/
+	color: white;
+	/*margin - add space between elements*/
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+i:hover{
+	color: lightpink;
+}
+
+a{
+	/*make reflink clear*/
+	color: black;
+}
